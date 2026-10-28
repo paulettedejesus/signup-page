@@ -6,7 +6,7 @@ body {
     font-family: Lucida Sans Unicode, sans-serif;
     margin: 0 24px;
     background-color: #f8f0e6;
-    
+
     }
 
     h1 {
@@ -16,3 +16,13 @@ body {
     h2 {
         color: #63366d;
     }
+
+    .box {
+        margin: 35px 0;
+        border: 5px dotted #b69bcb;
+        padding: 18px;
+        background-color: #f3e5f2;
+        border-radius: 50px;
+    }
+
+    
