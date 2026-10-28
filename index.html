@@ -39,6 +39,30 @@
         <section id="join" class="box">
             <h2>Join Today</h2>
             <p>Register below to join our club</p>
+
+            <!--Register form-->
+            <form>
+                <label for="name">Your Name: </label>
+                <input type="text" id="name" name="name" placeholder="Samantha Sneed" required>
+
+                <label for="email">Your Email: </label>
+                <input type="email" name="email" id="email" placeholder="you@example.com">
+
+                <label for="course">Choose your Day</label>
+                <select id="course" name="course">
+                    <option value="">Choose a course</option>
+                    <option value="first">Saturday 4pm to 6pm</option>
+                    <option value="second">Sunday 4pm to 6pm</option>
+                   
+            </select>
+
+
+            <label for="message">Any concerns?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Sign Up</button>
+
+            </form>
         </section>
     </main>
 
