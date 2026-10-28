@@ -50,3 +50,14 @@ body {
         color: #4b3154;
     }
 
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline: 3px solid  pink; 
+        outline-offset: 2px;
+    }
+
+    input:user-invalid {
+        border: 2px darkgoldenrod;
+    }
+

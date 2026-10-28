@@ -19,3 +19,16 @@ function sayBye() {
 
 sayBye();
 sayBye();
+
+// Day 2
+
+let nextButton = document .querySelector("#next-btn");
+let nextMeeting = document .querySelector("#next-meeting");
+
+//Declare a function message
+
+function showNextMeeting() {
+    nextMeeting.textContent = "We meet Saturdays and Sundays every week at 4pm to 6pm at Cherry Blossom Road"
+}
+
+nextButton.addEventListener("click", showNextMeeting);
