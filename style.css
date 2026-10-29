@@ -32,7 +32,6 @@ body {
     /* Form style */
     label {
         display: block ;
-        margin-top: 12px;
         font-weight: bold;
     }
 
@@ -43,7 +42,6 @@ body {
     }
 
     button {
-        margin-top: 12px;
         display: block;
         padding: 8px;
         background-color: pink ;
@@ -61,6 +59,7 @@ body {
         border: 2px solid darkgoldenrod;
     }
 
+    /* FlexBox */
     .cards {
         display: flex;
         gap: 16px;
@@ -72,3 +71,18 @@ body {
         border: 5px dotted pink;
         padding: 18px;
     }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        max-width: 30rem;
+    }
+
+    field {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    

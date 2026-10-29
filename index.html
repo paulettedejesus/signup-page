@@ -65,26 +65,37 @@
 
             <!--Register form-->
             <form>
+                <div class="field">
                 <label for="name">Your Name: </label>
                 <input type="text" id="name" name="name" placeholder="Samantha Sneed" required>
+                </div>
 
+                <div class="field">
                 <label for="email">Your Email: </label>
                 <input type="email" name="email" id="email" placeholder="you@example.com" required>
+                </div>
 
+                <div class="field">
                 <label for="password">Create a password</label>
                 <input type="password" id="password" name="password" required>
+                </div>
 
+                
+                <div class="field">
                 <label for="course">Choose your Day</label>
                 <select id="course" name="course">
                     <option value="">Choose a course</option>
                     <option value="first">Saturday 4pm to 6pm</option>
                     <option value="second">Sunday 4pm to 6pm</option>
+                    </div>
+                    
                    
             </select>
 
-
+            <div class="field">
             <label for="message">Any concerns?</label>
             <textarea id="message" name="message" rows="4"></textarea>
+            </div>
 
             <button type="submit">Sign Up</button>
 
