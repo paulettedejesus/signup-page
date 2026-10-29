@@ -58,6 +58,17 @@ body {
     }
 
     input:user-invalid {
-        border: 2px darkgoldenrod;
+        border: 2px solid darkgoldenrod;
     }
 
+    .cards {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 200px;
+        border: 5px dotted pink;
+        padding: 18px;
+    }
