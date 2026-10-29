@@ -43,7 +43,7 @@ body {
 
     button {
         display: block;
-        padding: 8px;
+        padding: 10px 20px;
         background-color: pink ;
         color: #4b3154;
     }
@@ -86,3 +86,7 @@ body {
         gap: 4px;
     }
     
+    .compare * {
+        outline: 2px dashed tomato;
+
+    }
