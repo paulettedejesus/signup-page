@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --brand: plum;
+    --page-bg: lightyellow;
+    --text: lavender;
+    --surface: violet;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -9,7 +16,7 @@ html {
 body {
     font-family: Lucida Sans Unicode, sans-serif;
     margin: 0 24px;
-    background-color: #f8f0e6;
+    background-color: var(--page-bg);
     }
 
     main {
@@ -145,5 +152,13 @@ body {
         }
     }
 
+
+    body.dark {
+    --brand: rgb(20, 1, 20);
+    --page-bg: rgb(120, 120, 67);
+    --text: rgb(235, 235, 244);
+    --surface: rgb(72, 33, 72);
+}
+    
 
 
