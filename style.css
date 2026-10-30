@@ -115,6 +115,8 @@ body {
 
     /* styled nav bar*/
     nav {
+        position: sticky;
+        top: 0;
         display: flex;
         gap: 16px;
         justify-content: center;
@@ -168,9 +170,26 @@ body {
     --text: rgb(217, 230, 169);
     --surface: rgb(137, 121, 247);
     --heading: rgb(17, 209, 235);
-}
+    }
 
+    header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
 
+    .logo {
+    display: flex;
+    gap: 16px;
+    }
+
+    .logo h1 {
+    margin-bottom: 0;
+    }
+
+    .logo p {
+    margin-top: 0;
+    }
     
 
 
