@@ -119,3 +119,23 @@ body {
         padding: 4px;
         border-radius: 6px;
     }
+
+    .hero {
+        background-color: rgba(0, 100, 0, 0.85;
+        color: white;
+        padding: 64px 24px;
+        text-align: center;
+        margin-top: 32px;
+        border-radius: 16px;
+    }
+
+    .cta {
+        display:inline-block;
+        background-color: gold;
+        color: #63366d;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        }
+
