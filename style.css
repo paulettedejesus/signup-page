@@ -3,10 +3,12 @@
 }
 
 :root {
-    --brand: plum;
-    --page-bg: lightyellow;
-    --text: lavender;
+    --brand: rgb(139, 23, 139);
+    --page-bg: #ffc0b4 ;
+    --text: #63366d;
     --surface: violet;
+    --heading: hotpink; 
+
 }
 
 html {
@@ -17,6 +19,7 @@ body {
     font-family: Lucida Sans Unicode, sans-serif;
     margin: 0 24px;
     background-color: var(--page-bg);
+    color: var(--text)
     }
 
     main {
@@ -26,22 +29,22 @@ body {
     }
 
     h1 {
-        color: #53265c;
+        color: var(--heading);
     }
 
     h2 {
-        color: #63366d;
+        color: var(--heading);
     }
 
     .box {
         margin: 35px 0;
         border: 5px dotted pink;
         padding: 18px;
-        background-color: #f3e5f2;
+        background-color: var(--surface);
         border-radius: 50px;
     }
 
-    /* Form style */
+    <!--style--> 
     label {
         display: block ;
         font-weight: bold;
@@ -56,8 +59,8 @@ body {
     button {
         display: block;
         padding: 10px 20px;
-        background-color: pink ;
-        color: #4b3154;
+        background-color: var(--heading);
+        color: var(--text);
     }
 
     input:focus,
@@ -82,8 +85,9 @@ body {
         flex: 1 1 200px;
         border: 5px dotted pink;
         padding: 18px;
-        background-color: #f3e5f2;
+        background-color: var(--surface);
         border-radius: 50px;
+        color: var(--text)
     }
 
 
@@ -92,9 +96,14 @@ body {
         flex-direction: column;
         gap: 16px;
         max-width: 30rem;
+        color: var(--text);
     }
 
-    field {
+    .signup {
+        width: 320px;
+    }
+
+    .field {
         display: flex;
         flex-direction: column;
         gap: 4px;
@@ -109,7 +118,7 @@ body {
         display: flex;
         gap: 16px;
         justify-content: center;
-        background-color:#63366d;
+        background-color: var(--heading);
         padding: 10px 15px;
         box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
     }
@@ -122,14 +131,14 @@ body {
 
     nav a:hover {
         background-color: plum;
-        color: #f8f0e6;
+        color: var(--text);
         padding: 4px;
         border-radius: 6px;
     }
 
     .hero {
-        background-color: rgba(0, 100, 0, 0.85;
-        color: white;
+        background-color: var(--surface);
+        color: var(--text);
         padding: 64px 24px;
         text-align: center;
         margin-top: 32px;
@@ -138,8 +147,8 @@ body {
 
     .cta {
         display:inline-block;
-        background-color: gold;
-        color: #63366d;
+        background-color: var(--heading);
+        color: var(--text);
         padding: 12px 24px;
         border-radius: 8px;
         text-decoration: none;
@@ -154,11 +163,14 @@ body {
 
 
     body.dark {
-    --brand: rgb(20, 1, 20);
-    --page-bg: rgb(120, 120, 67);
-    --text: rgb(235, 235, 244);
-    --surface: rgb(72, 33, 72);
+    --brand: rgb(176, 145, 239);
+    --page-bg: rgb(32, 2, 26);
+    --text: rgb(217, 230, 169);
+    --surface: rgb(137, 121, 247);
+    --heading: rgb(17, 209, 235);
 }
+
+
     
 
 
