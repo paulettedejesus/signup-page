@@ -1,6 +1,6 @@
 # Crochet Learning Circle for Beginners
 
-No experience necessary! Members will learn simple stitches, practice together, and work towards creating something special.
+A friendly introduction for beginners. No experience necessary! Members will learn simple stitches, practice together, and work towards creating something special.
 
 [Check out my live site link](https://paulettedejesus.github.io/signup-page/)
 
